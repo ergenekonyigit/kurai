@@ -9,8 +9,6 @@
 #include <dt-bindings/zmk/bt.h>
 
 // Custom shortcuts
-#define _BACKTICK RA(BACKSLASH)
-#define _TILDE RA(RIGHT_BRACKET)
 #define _LOCKSCREEN LC(LS(C_PWR)) // Screen Lock shortcut for OSX
 
 // Layers
@@ -50,7 +48,7 @@
  * ,-----------------------------------------------, ,-----------------------------------------------,
  * |   ~   |   !   |   @   |   #   |   $   |   %   | |   ^   |   &   |   *   |   (   |   )   | bkspc |
  * |-------+-------+-------+-------+-------+-------| |-------+-------+-------+-------+-------+-------|
- * | ctrl  |   _   |   +   |   {   |   }   |  "|"  | | left  | down  |  up   | down  |   `   |   ~   |
+ * | ctrl  |   _   |   +   |   {   |   }   |   |   | | left  | down  |  up   | down  |   `   |   ~   |
  * |-------+-------+-------+-------+-------+-------| |-------+-------+-------+-------+-------+-------|
  * | shift |       |       |       |       |       | | home  |  end  | pgup  | pgdn  | pscrn | enter |
  * '-----------------------------------------------' '-----------------------------------------------'
@@ -59,10 +57,10 @@
  *                         '-------------------------------------------------'
  */
                         bindings = <
-   &kp _TILDE    &kp EXCL  &kp AT      &kp HASH &kp DLLR &kp PRCNT      &kp CARET &kp AMPS &kp N8    &kp LPAR  &kp RPAR  &kp BSPC
-   &mt LCTRL ESC &kp MINUS &kp KP_PLUS &kp LBRC &kp RBRC &kp PIPE       &kp LEFT  &kp DOWN &kp UP    &kp RIGHT &kp GRAVE &kp GRAVE
-   &kp LSHFT     &kp ESC   &kp LGUI    &kp LALT &kp CLCK &kp SQT        &kp HOME  &kp END  &kp PG_UP &kp PG_DN &kp PSCRN &mt RSHFT RET
-                                       &kp LALT &kp LGUI       &kp SPACE        &trans   &mo _ADJUST
+   &kp TILDE     &kp EXCL  &kp AT   &kp HASH &kp DLLR &kp PRCNT      &kp CARET &kp AMPS &kp ASTRK &kp LPAR  &kp RPAR  &kp BSPC
+   &mt LCTRL ESC &kp UNDER &kp PLUS &kp LBRC &kp RBRC &kp PIPE       &kp LEFT  &kp DOWN &kp UP    &kp RIGHT &kp GRAVE &kp TILDE
+   &kp LSHFT     &trans    &trans   &trans   &trans   &trans         &kp HOME  &kp END  &kp PG_UP &kp PG_DN &kp PSCRN &kp RET
+                                     &kp LALT &kp LGUI       &kp SPACE        &trans   &mo _ADJUST
                         >;
                 };
 
@@ -80,7 +78,7 @@
  *                         '-------------------------------------------------'
  */
                         bindings = <
-   &kp _BACKTICK &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp BSPC
+   &kp GRAVE     &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp BSPC
    &mt LCTRL ESC &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT  &kp BSLH      &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6
    &kp LSHFT     &trans    &trans    &trans    &trans    &trans        &kp F7    &kp F8    &kp F9    &kp F10   &kp F11   &kp F12
                                        &kp LALT &kp LGUI       &kp SPACE        &mo _ADJUST      &trans
