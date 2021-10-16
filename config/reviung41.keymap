@@ -37,7 +37,7 @@
  */
                         bindings = <
    &kp TAB       &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
-   &mt LCTRL ESC &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
+   &mt LCTL ESC  &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
    &kp LSHFT     &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &lt _NAVIGATION RET
                           &kp LALT &kp LGUI &kp SPACE &mo _LOWER &mo _RAISE
                         >;
@@ -58,7 +58,7 @@
  */
                         bindings = <
    &kp TILDE     &kp EXCL  &kp AT   &kp HASH &kp DLLR &kp PRCNT      &kp CARET &kp AMPS &kp ASTRK &kp LPAR  &kp RPAR  &kp BSPC
-   &mt LCTRL ESC &kp UNDER &kp PLUS &kp LBRC &kp RBRC &kp PIPE       &kp LEFT  &kp DOWN &kp UP    &kp RIGHT &kp GRAVE &kp TILDE
+   &mt LCTL ESC  &kp UNDER &kp PLUS &kp LBRC &kp RBRC &kp PIPE       &kp LEFT  &kp DOWN &kp UP    &kp RIGHT &kp GRAVE &kp TILDE
    &kp LSHFT     &trans    &trans   &trans   &trans   &trans         &kp HOME  &kp END  &kp PG_UP &kp PG_DN &kp PSCRN &kp RET
                                      &kp LALT &kp LGUI       &kp SPACE        &trans   &mo _ADJUST
                         >;
@@ -79,7 +79,7 @@
  */
                         bindings = <
    &kp GRAVE     &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp BSPC
-   &mt LCTRL ESC &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT  &kp BSLH      &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6
+   &mt LCTL ESC  &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT  &kp BSLH      &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6
    &kp LSHFT     &trans    &trans    &trans    &trans    &trans        &kp F7    &kp F8    &kp F9    &kp F10   &kp F11   &kp F12
                                        &kp LALT &kp LGUI       &kp SPACE        &mo _ADJUST      &trans
                         >;
@@ -100,7 +100,7 @@
  */
                         bindings = <
    &trans        &trans   &kp UP   &trans    &trans &trans      &trans &trans &trans &trans &trans &kp _LOCKSCREEN
-   &mt LCTRL ESC &kp LEFT &kp DOWN &kp RIGHT &trans &trans      &trans &trans &trans &trans &trans &trans
+   &mt LCTL ESC  &kp LEFT &kp DOWN &kp RIGHT &trans &trans      &trans &trans &trans &trans &trans &trans
    &kp LSHFT     &trans   &trans   &trans    &trans &trans      &trans &trans &trans &trans &trans &trans
                                      &kp LALT  &kp LGUI  &kp SPACE  &trans  &trans
                         >;
