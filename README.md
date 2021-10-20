@@ -1,6 +1,6 @@
 # kurai
 
-![reviung41](https://user-images.githubusercontent.com/7110136/137603516-fa7cefa3-435c-410f-a7a5-8e111ea877d9.jpg)
+![reviung41](https://user-images.githubusercontent.com/7110136/137787452-c1bbdd2c-bd71-4231-9210-0a4ad3832f11.jpg)
 
 Reviung41 Layout
 
